@@ -1,7 +1,7 @@
 <template>
-  <div id="app">
-    <router-view></router-view>
-  </div>
+    <div id="app" style="-webkit-app-region: drag">
+        <router-view></router-view>
+    </div>
 </template>
 
 <script>
@@ -11,5 +11,7 @@
 </script>
 
 <style>
-  /* CSS */
+    button {
+        -webkit-app-region: no-drag;
+    }
 </style>
